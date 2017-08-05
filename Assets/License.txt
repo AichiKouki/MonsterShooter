@@ -1,0 +1,10 @@
+Legal notice
+
+Usage License
+
+All scripts in this project are free to use.
+Meshes, textures and animations in this project remains property of Aiming Inc. and are licensed under the BY-NC-ND license.
+If you would like to know the contents of the license please check http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja
+
+本プロジェクトに含まれるスクリプトは自由に改変して使用することを許可します。
+本プロジェクトに含まれるメッシュ、テクスチャ、アニメーションアセットは株式会社 Aiming の著作物で、BY-NC-ND ライセンスによって許諾されています。ライセンスの内容を知りたい方は http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja でご確認ください。

@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 3f9192c507a0644a882280e2af53ccc9
+timeCreated: 1501434949
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CM_400_0022_00:CM_400_0022_00
+    100004: CM_400_0022_00:Head
+    100006: CM_400_0022_00:Head1
+    100008: CM_400_0022_00:Head2
+    100010: CM_400_0022_00:Head_B
+    100012: CM_400_0022_00:Head_F
+    100014: CM_400_0022_00:Head_L1
+    100016: CM_400_0022_00:Head_L2
+    100018: CM_400_0022_00:Head_L3
+    100020: CM_400_0022_00:Head_R1
+    100022: CM_400_0022_00:Head_R2
+    100024: CM_400_0022_00:Head_R3
+    100026: CM_400_0022_00:Hips
+    100028: CM_400_0022_00:LArm1
+    100030: CM_400_0022_00:LArm2
+    100032: CM_400_0022_00:LArm3
+    100034: CM_400_0022_00:LBOralArm1
+    100036: CM_400_0022_00:LBOralArm2
+    100038: CM_400_0022_00:LBOralArm3
+    100040: CM_400_0022_00:LEye
+    100042: CM_400_0022_00:LEyeDown
+    100044: CM_400_0022_00:LEyeUp
+    100046: CM_400_0022_00:LFoot
+    100048: CM_400_0022_00:LFOralArm1
+    100050: CM_400_0022_00:LFOralArm2
+    100052: CM_400_0022_00:LFOralArm3
+    100054: CM_400_0022_00:LHand1
+    100056: CM_400_0022_00:LHand2
+    100058: CM_400_0022_00:LLeg1
+    100060: CM_400_0022_00:LLeg2
+    100062: CM_400_0022_00:LLeg3
+    100064: CM_400_0022_00:Neck
+    100066: CM_400_0022_00:OralArm1
+    100068: CM_400_0022_00:OralArm2
+    100070: CM_400_0022_00:OralArm3
+    100072: CM_400_0022_00:RArm1
+    100074: CM_400_0022_00:RArm2
+    100076: CM_400_0022_00:RArm3
+    100078: CM_400_0022_00:RBOralArm1
+    100080: CM_400_0022_00:RBOralArm2
+    100082: CM_400_0022_00:RBOralArm3
+    100084: CM_400_0022_00:REye
+    100086: CM_400_0022_00:REyeDown
+    100088: CM_400_0022_00:REyeUp
+    100090: CM_400_0022_00:RFoot
+    100092: CM_400_0022_00:RFOralArm1
+    100094: CM_400_0022_00:RFOralArm2
+    100096: CM_400_0022_00:RFOralArm3
+    100098: CM_400_0022_00:RHand1
+    100100: CM_400_0022_00:RHand2
+    100102: CM_400_0022_00:RootBox
+    100104: CM_400_0022_00:RReg1
+    100106: CM_400_0022_00:RReg2
+    100108: CM_400_0022_00:RReg3
+    400000: //RootNode
+    400002: CM_400_0022_00:CM_400_0022_00
+    400004: CM_400_0022_00:Head
+    400006: CM_400_0022_00:Head1
+    400008: CM_400_0022_00:Head2
+    400010: CM_400_0022_00:Head_B
+    400012: CM_400_0022_00:Head_F
+    400014: CM_400_0022_00:Head_L1
+    400016: CM_400_0022_00:Head_L2
+    400018: CM_400_0022_00:Head_L3
+    400020: CM_400_0022_00:Head_R1
+    400022: CM_400_0022_00:Head_R2
+    400024: CM_400_0022_00:Head_R3
+    400026: CM_400_0022_00:Hips
+    400028: CM_400_0022_00:LArm1
+    400030: CM_400_0022_00:LArm2
+    400032: CM_400_0022_00:LArm3
+    400034: CM_400_0022_00:LBOralArm1
+    400036: CM_400_0022_00:LBOralArm2
+    400038: CM_400_0022_00:LBOralArm3
+    400040: CM_400_0022_00:LEye
+    400042: CM_400_0022_00:LEyeDown
+    400044: CM_400_0022_00:LEyeUp
+    400046: CM_400_0022_00:LFoot
+    400048: CM_400_0022_00:LFOralArm1
+    400050: CM_400_0022_00:LFOralArm2
+    400052: CM_400_0022_00:LFOralArm3
+    400054: CM_400_0022_00:LHand1
+    400056: CM_400_0022_00:LHand2
+    400058: CM_400_0022_00:LLeg1
+    400060: CM_400_0022_00:LLeg2
+    400062: CM_400_0022_00:LLeg3
+    400064: CM_400_0022_00:Neck
+    400066: CM_400_0022_00:OralArm1
+    400068: CM_400_0022_00:OralArm2
+    400070: CM_400_0022_00:OralArm3
+    400072: CM_400_0022_00:RArm1
+    400074: CM_400_0022_00:RArm2
+    400076: CM_400_0022_00:RArm3
+    400078: CM_400_0022_00:RBOralArm1
+    400080: CM_400_0022_00:RBOralArm2
+    400082: CM_400_0022_00:RBOralArm3
+    400084: CM_400_0022_00:REye
+    400086: CM_400_0022_00:REyeDown
+    400088: CM_400_0022_00:REyeUp
+    400090: CM_400_0022_00:RFoot
+    400092: CM_400_0022_00:RFOralArm1
+    400094: CM_400_0022_00:RFOralArm2
+    400096: CM_400_0022_00:RFOralArm3
+    400098: CM_400_0022_00:RHand1
+    400100: CM_400_0022_00:RHand2
+    400102: CM_400_0022_00:RootBox
+    400104: CM_400_0022_00:RReg1
+    400106: CM_400_0022_00:RReg2
+    400108: CM_400_0022_00:RReg3
+    4300000: CM_400_0022_00:CM_400_0022_00
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: CM_400_0022_00:CM_400_0022_00
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

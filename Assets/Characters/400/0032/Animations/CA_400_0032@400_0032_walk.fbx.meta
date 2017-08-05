@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 3f4ec4135e4b2485aaa6f2d69374b263
+timeCreated: 1501037488
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CM_400_0032_00:Chest
+    100004: CM_400_0032_00:CM_400_0032_00
+    100006: CM_400_0032_00:Fin
+    100008: CM_400_0032_00:Hara
+    100010: CM_400_0032_00:Head
+    100012: CM_400_0032_00:Hips
+    100014: CM_400_0032_00:Jaw
+    100016: CM_400_0032_00:LArm
+    100018: CM_400_0032_00:LEye_Down
+    100020: CM_400_0032_00:LEye_Up
+    100022: CM_400_0032_00:LFoot
+    100024: CM_400_0032_00:LHand
+    100026: CM_400_0032_00:LKnee
+    100028: CM_400_0032_00:LLeg
+    100030: CM_400_0032_00:LShoulder
+    100032: CM_400_0032_00:RArm
+    100034: CM_400_0032_00:REye_Down
+    100036: CM_400_0032_00:REye_Up
+    100038: CM_400_0032_00:RFoot
+    100040: CM_400_0032_00:RHand
+    100042: CM_400_0032_00:RKnee
+    100044: CM_400_0032_00:RootBox
+    100046: CM_400_0032_00:RReg
+    100048: CM_400_0032_00:RShoulder
+    100050: CM_400_0032_00:Spine
+    100052: CM_400_0032_00:Tongue1
+    100054: CM_400_0032_00:Tongue2
+    100056: CM_400_0032_00:Tongue3
+    100058: CM_400_0032_00:Tongue4
+    100060: CM_400_0032_00:Tongue5
+    100062: CM_400_0032_00:Tongue6
+    100064: CM_400_0032_00:Tongue7
+    100066: CM_400_0032_00:Tongue8
+    100068: CM_400_0032_00:Tooth
+    400000: //RootNode
+    400002: CM_400_0032_00:Chest
+    400004: CM_400_0032_00:CM_400_0032_00
+    400006: CM_400_0032_00:Fin
+    400008: CM_400_0032_00:Hara
+    400010: CM_400_0032_00:Head
+    400012: CM_400_0032_00:Hips
+    400014: CM_400_0032_00:Jaw
+    400016: CM_400_0032_00:LArm
+    400018: CM_400_0032_00:LEye_Down
+    400020: CM_400_0032_00:LEye_Up
+    400022: CM_400_0032_00:LFoot
+    400024: CM_400_0032_00:LHand
+    400026: CM_400_0032_00:LKnee
+    400028: CM_400_0032_00:LLeg
+    400030: CM_400_0032_00:LShoulder
+    400032: CM_400_0032_00:RArm
+    400034: CM_400_0032_00:REye_Down
+    400036: CM_400_0032_00:REye_Up
+    400038: CM_400_0032_00:RFoot
+    400040: CM_400_0032_00:RHand
+    400042: CM_400_0032_00:RKnee
+    400044: CM_400_0032_00:RootBox
+    400046: CM_400_0032_00:RReg
+    400048: CM_400_0032_00:RShoulder
+    400050: CM_400_0032_00:Spine
+    400052: CM_400_0032_00:Tongue1
+    400054: CM_400_0032_00:Tongue2
+    400056: CM_400_0032_00:Tongue3
+    400058: CM_400_0032_00:Tongue4
+    400060: CM_400_0032_00:Tongue5
+    400062: CM_400_0032_00:Tongue6
+    400064: CM_400_0032_00:Tongue7
+    400066: CM_400_0032_00:Tongue8
+    400068: CM_400_0032_00:Tooth
+    4300000: CM_400_0032_00:CM_400_0032_00
+    7400000: 400_0032_walk
+    9500000: //RootNode
+    13700000: CM_400_0032_00:CM_400_0032_00
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 400_0032_walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CM_400_0032_00:Hips
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
