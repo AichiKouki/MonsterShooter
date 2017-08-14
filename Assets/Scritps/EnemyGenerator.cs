@@ -6,7 +6,9 @@ public class EnemyGenerator : MonoBehaviour {
 	public GameObject[] enemyPre;
 	GameObject enemy;
 	private float del=0;//生成間隔
-	private int ran=0;
+	private int enemyFamily=0;
+	Vector3 enemyPos;
+	private float posZ;//-5〜3.5
 
 	// Use this for initialization
 	void Start () {
@@ -15,15 +17,17 @@ public class EnemyGenerator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		del += Time.deltaTime;
-		if (del > 1) {
-			AddEnemy ();
-			del = 0;
-		}
+		AddEnemy ();
 	}
 
 	void AddEnemy(){
-		ran = Random.Range (0,3);
-		enemy = (GameObject)Instantiate (enemyPre[ran],transform.position,Quaternion.identity);
+		del += Time.deltaTime;
+		if (del > 2) {
+			enemyFamily = Random.Range (0,3);
+			posZ = Random.Range (-5,3.6f);
+			enemyPos = new Vector3 (-35,0,posZ);
+			enemy = (GameObject)Instantiate (enemyPre [enemyFamily],enemyPos, Quaternion.identity);
+			del=0;
+		}
 	}
 }

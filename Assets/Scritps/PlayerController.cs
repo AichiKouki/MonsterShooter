@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 	//public GameObject playerCollider;
-	Enemy enemy;
+	EnemyController enemy;
 	private bool collied = false;
 	public bool catched=false;
 	public bool thrown=false;
@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour {
 	GameObject underEffect;
 	private bool spawn=false;//スポーンされたかどうか
 
+	//敵への攻撃関連
+	Rigidbody rigid;
+
 	void Start () {
 		aud = GetComponent<AudioSource> ();
 		MakeUnderEffect ();//下の魔法陣的なものを生成する処理
@@ -27,21 +30,33 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () { 
-
+		//Debug.Log (transform.position);
 		//スペースキーを押して、敵をキャッチしたり投げたりする処理
 		if(Input.GetKeyDown(KeyCode.Space) && collied==true){
 			//1回目のスペースキー押したら、敵を掴んで、二回目にスペースキーを押したら敵を投げる処理
 			if (func == 0) {
-				Debug.Log ("スペースキー");
 				aud.PlayOneShot (se[0]);
-				catched = enemy.Catched ();
-				Debug.Log (catched);
+				catched = true;
+				enemy.Catched ();
 				func++;
 			}else if (func == 1) {
-				Debug.Log ("Gキー");
+				thrown = true;
+				aud.PlayOneShot (se[1]);
 				Thrown_Button ();
 				func = 0;
 			}
+		}
+
+		//敵を掴む処理
+		if (catched == true) {
+			enemy.transform.position = transform.position;
+		}
+
+		//敵を投げる処理
+		if (catched == true && thrown == true) {
+			catched = false;
+			thrown = false;
+			rigid.AddForce (-500, 0, 0);//自分自身にAddForceして、投げられたように演出
 		}
 
 		//エフェクトをプレイヤーに追従させる処理
@@ -63,8 +78,9 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Enemy") {
 			collied = true;
-			Debug.Log ("敵にぶつかりました");
-			enemy = other.gameObject.GetComponent<Enemy> ();
+			//Debug.Log ("敵にぶつかりました");
+			enemy = other.gameObject.GetComponent<EnemyController> ();
+			rigid = other.gameObject.GetComponent<Rigidbody> ();
 			//catched = enemy.Catched ();
 			//Debug.Log (catched);
 		}

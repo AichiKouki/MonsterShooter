@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 86fc4c9bb8df34a9ea7ea42a525fa0b6
+timeCreated: 1502076239
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tanuki Permanent Marker
+  fontNames:
+  - Tanuki Permanent Marker
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
