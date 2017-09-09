@@ -17,13 +17,18 @@ public class GameController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		Debug.Log (blackValue);
+	void FixedUpdate () {
+		fade_in_and_fade_out ();
+		comboLabel.text=comboCount+"コンボ！";
+	}
+
+	//フェードインとフェードアウト処理
+	void fade_in_and_fade_out(){
 		comboLabel.color=new Color(255.0f/255,146.0f/255,8.0f/255,blackValue/255);
 		if (comboStart == true) {
 			//Debug.Log ("フェードイン処理");
 			del += Time.deltaTime;
-			if (blackValue < 255) blackValue += 5.0f;//フェードイン処理。255までと制限するのは、無限に増えていくので、あとで減らそうとしても間に合わなくなるから
+			if (blackValue < 255) blackValue += 8.0f;//フェードイン処理。255までと制限するのは、無限に増えていくので、あとで減らそうとしても間に合わなくなるから
 			if (del > 5) {//コンボを5秒間続かない時間を作ってしまうとコンボリセット
 				del = 0;
 				comboStart = false;
@@ -32,7 +37,6 @@ public class GameController : MonoBehaviour {
 		} else {
 			if(blackValue>0)blackValue -= 5.0f;//0までの制限しているのは、無限に減っていくので、あとで減らそうとしても間に合わなくなるから
 		}
-		comboLabel.text=comboCount+"コンボ！";
 	}
 
 	//コンボし始めたことを知らせる関数

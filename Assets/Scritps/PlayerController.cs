@@ -23,6 +23,9 @@ public class PlayerController : MonoBehaviour {
 	//敵への攻撃関連
 	Rigidbody rigid;
 
+	//Hp関連
+	private int hp=10;
+
 	void Start () {
 		aud = GetComponent<AudioSource> ();
 		MakeUnderEffect ();//下の魔法陣的なものを生成する処理
@@ -30,7 +33,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () { 
-		//Debug.Log (transform.position);
+		//Debug.Log (hp);
 		//スペースキーを押して、敵をキャッチしたり投げたりする処理
 		if(Input.GetKeyDown(KeyCode.Space) && collied==true){
 			//1回目のスペースキー押したら、敵を掴んで、二回目にスペースキーを押したら敵を投げる処理
@@ -42,7 +45,7 @@ public class PlayerController : MonoBehaviour {
 			}else if (func == 1) {
 				thrown = true;
 				aud.PlayOneShot (se[1]);
-				Thrown_Button ();
+				Thrown_Button ();//投げた敵を、投げられた敵に設定
 				func = 0;
 			}
 		}
@@ -75,6 +78,7 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	//子要素のオブジェクトのOnTriggerを取得している
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Enemy") {
 			collied = true;
@@ -83,6 +87,11 @@ public class PlayerController : MonoBehaviour {
 			rigid = other.gameObject.GetComponent<Rigidbody> ();
 			//catched = enemy.Catched ();
 			//Debug.Log (catched);
+		} 
+
+		if (other.gameObject.tag == "Attacked_Enemy") {
+			Debug.Log ("敵の攻撃を受けた");
+			hp--;
 		}
 	}
 
